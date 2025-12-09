@@ -1,0 +1,17 @@
+{
+    "name": "bagchaser/core",
+    "description": "Core for AzulCloud",
+    "type": "project",
+    "license": "GNU General Public License v3.0",
+    "autoload": {
+        "psr-4": {
+            "Bagchaser\\Core\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "BagChaser"
+        }
+    ],
+    "require": {}
+}

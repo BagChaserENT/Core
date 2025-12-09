@@ -1,0 +1,9 @@
+name: Core
+version: 1.0.0
+author: BagChaser
+api: 5.36.0
+main: core\Core
+
+permissions:
+  core.cmd.balance:
+    default: true
