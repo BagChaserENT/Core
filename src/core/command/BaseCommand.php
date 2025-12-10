@@ -122,7 +122,7 @@ abstract class BaseCommand extends Command implements PluginOwned {
         return $this->subCommands;
     }
 
-    public function getArguments() : array{
+    public function getArgumentList() : array{
         return $this->arguments;
     }
 
