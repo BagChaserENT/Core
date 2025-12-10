@@ -103,7 +103,7 @@ abstract class SubCommand {
         return $this->permission;
     }
 
-    public function getArguments() : array{
+    public function getArgumentList() : array{
         return $this->arguments;
     }
 
