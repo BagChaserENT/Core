@@ -21,6 +21,7 @@ class Core extends PluginBase {
 
     protected function onEnable() : void{
         $this->getServer()->getPluginManager()->registerEvents(new EventListener(), $this);
+        $this->getServer()->getPluginManager()->registerEvents(new PacketHooker(), $this);
         $this->getServer()->getCommandMap()->registerAll("core", [
             new BalanceCommand($this),
             new SeeBalanceCommand($this)
